@@ -1,3 +1,165 @@
+
+
+### Important note from user
+
+### Instruction to run on your local machine
+
+you must have a nodejs on your machine and vs (visual studiocode) code installed on your machine 
+
+on your vs code clicking on three dots it shows a terminal click on that select new terminal 
+
+on terminal you can run this commands 
+
+git clone (gitProjectUrl)
+
+cd weatherapp 
+
+### this command install all pre requiew packages and all 
+
+npm install 
+
+### this command start's the application 
+
+npm start
+
+
+
+### Technology i have used 
+
+I have developed this weather application by using reactjs 
+
+I have implement a based on status conditons , implemented a failure view , success view, error handlings 
+
+I have created this web app is reponsive 
+
+I delevoped both night mode and light modes on clicking on the moon and sun icons 
+
+fetching the api i used a api from open weather app 
+
+based on the details found on after fetching those api 
+
+I display most of the weather information 
+
+I implemented icons from both react icons and open weather api provides icons , those icon details i converted into an image 
+
+
+
+
+
+### issues 
+
+
+I have seen one issue with open weather api app 
+
+after fetching data from the api 
+
+time stamp (dt) and time zone that are not updating correctly and they are updating little late 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

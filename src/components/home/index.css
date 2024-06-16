@@ -1,0 +1,264 @@
+
+*{
+    box-sizing: border-box;
+   
+}
+.body{
+    font-family: "Roboto";
+}
+
+
+
+.weather-container{
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.dark-mode-container{
+    background-color: #090000;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.weather-card{
+
+    background-color: crimson;
+    color: #ffffff;
+    
+    font-family: "Roboto";
+    border-radius: 12px;
+    height: 550px;
+    width: 320px;
+    padding:22px;
+    margin:15px;
+   
+    
+
+}
+
+.search-input{
+    height: 33px;
+    width: 160px;
+    border-radius: 9px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: chocolate;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px;
+    border: 0px;
+}
+
+.search-button{
+    height: 33px;
+    width: 99px;
+    border-radius: 9px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: coral;
+    color:#ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    
+}
+
+.user-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.weather-para{
+    text-align: center;
+    color:rgb(104, 77, 46);
+    padding-inline: 13px;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 18px;
+   
+  
+}
+
+.company-logo{
+    height: 99px;
+    width: 123px;
+    border-radius:12px;
+}
+
+
+/* Dark Mode */
+.change-background-dark{
+
+    background-color: black;
+    color:#ffffff;
+
+}
+
+
+.change-background-white{
+    background-color: #ffffff;
+    color:#090000;
+}
+
+/* Loader */
+.loader-bg{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 22px;
+}
+
+/* Multiple Weathers */
+.multiple-weathers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* User Weather Image */
+.user-weather-image{
+    height: 100px;
+    width: 100px;
+}
+
+/* Sun and Moon Buttons */
+
+.moon-button,
+.sun-button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sun-button:hover,
+.moon-button:hover{
+    transform: scale(1.1);
+}
+
+.sun-image,
+.moon-image{
+    height: 44px;
+    width: 44px;
+  
+    background-color: transparent;
+}
+
+.nav-bar-dark{
+    background-color: #090000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color:#ffffff;
+    font-weight: 600;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+/* Responive Styles */
+.smaller-screen-weather-para{
+    display: none;
+}
+
+.weather-para{
+    display: block;
+    font-weight: 600;
+   
+}
+
+.hr{
+    display: none;
+}
+
+.searched-info{
+    text-align: center;
+}
+
+.temperature-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.humidity-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+@media (max-width:767px){
+
+    .smaller-screen-weather-para{
+        display: block;
+        text-align: center;
+        color:rgb(104, 77, 46);
+        padding:12px;
+        box-sizing: border-box;
+       font-weight: 600;
+       
+       
+    }
+    .weather-para{
+        display: none;
+    }
+    .company-logo{
+        height:77px;
+        width: 99px;
+        border-radius:12px;
+    }
+    .hr{
+        display: block;
+    }
+}
+
+@media (min-width:960px) and (max-width:1200px){
+    .weather-card{
+        width: 400px;
+    }
+    .sun-image,.moon-image{
+        height: 77px;
+        width: 77px;
+    }
+    .company-logo{
+        height: 110px;
+        width: 180px;
+    }
+    .weather-para{
+        font-size: 19px;
+    }
+    .search-input{
+        width: 200px;
+        height: 44px;
+    }
+    .search-button{
+        width: 99px;
+        height: 44px;
+    }
+    .user-input{
+        margin-bottom: 55px;
+    }
+    
+
+}
