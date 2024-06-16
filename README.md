@@ -10,7 +10,7 @@ on your vs code clicking on three dots it shows a terminal click on that select 
 
 on terminal you can run this commands 
 
-git clone (gitProjectUrl)
+git clone https://github.com/DaveedGangi/KraftshalaDaveedAssignment.git
 
 cd weatherapp 
 
